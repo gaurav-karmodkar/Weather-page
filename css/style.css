@@ -1,0 +1,190 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+body{
+   background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/modern-gradient-background-free-photo.jpg?w=600&quality=80");
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   margin-top: 150px;
+   margin-bottom: 20px;
+}
+
+.first{
+   border: 2px solid black;
+   width: 400px;
+   height: 550px;
+   border-radius: 10px;
+ 
+   
+
+}
+
+.loc_name{
+   margin-top: 10px;
+}
+
+.loc_name img{
+   margin-top: 10px;
+   height: 30px;
+   width: 20px;
+   color: white;
+}
+
+.loc_name span{
+   font-size: 18px;
+}
+
+#head1{
+   background-color:#ff80ff;
+   opacity: 0.7;
+   height:190px;
+   padding: 10px;
+   border-radius: 6px;
+}
+
+.tim_loc{
+   margin-left: 4px;
+   display: flex;
+   justify-content: space-around;
+   
+
+   
+}
+
+.temp_cloud{
+   display: flex;
+   
+   width: 200px;
+}
+
+.cloud_icon{
+   font-size: 70px;
+   margin-top: 10px;
+   margin-right: 10px;
+}
+
+.cloud_temp{
+   margin-top: 20px;
+   font-size: 50px;
+   
+}
+
+.sun-set{
+   display: flex;
+   gap: 20px;
+   padding: 2px;
+   margin-top: 30px;
+   background-color: rgb(238, 130, 238,0.9);
+   height: 45px;
+   width: 160px;
+   padding: 2px;
+   border-radius: 5px;
+   
+   
+  
+   
+}
+
+.sun-set div{
+   margin-left: 4px;
+   padding: 2px;
+   
+}
+
+.cloud{
+   display: flex;
+}
+
+.small_mx{
+   background-color: rgb(102, 0, 102);
+   height: 55px;
+   width: 340px;
+   margin-left:13px ;
+   border-radius: 25px;
+   display: flex;
+   padding: 3px;
+
+}
+
+#or{
+   margin-left: 5px;
+   margin-right: 5px;
+   font-size: 2.3rem;
+   opacity: 0.4;
+   
+}
+
+.sm_child1{
+  
+  max-width: 45%;
+  display: flex;
+  border-radius: 25px 0px 0px 25px;
+
+ 
+}
+
+#sun_logo{
+   color: gold;
+   font-size: 25px;
+   text-align: center;
+   margin-left: 5px;
+  
+   
+}
+
+#mnth_date{
+   margin-top: 5px;
+   font-size: 1rem;
+}
+
+
+
+#min_maxt{
+   width: 81px;
+   margin-left: 4px;
+   text-align: center;
+   padding-top: 6px;
+   font-size: 1rem;
+}
+
+#sun_logod{
+   border-radius: 25px 0px 0px 25px;
+   width: 90px;
+   margin-top: 3px;
+}
+
+
+/* reading contents */
+.air_quality{
+   padding: 10px;
+
+}
+
+.air_head{
+   margin-top: 38px;
+}
+
+.data{
+   display: flex;
+   justify-content: space-around;
+}
+ 
+.data_or{
+   margin-top: 22px;
+   font-size: 35px;
+}
+
+.air_data1{
+   margin-top: 20px;
+   font-size: 20px;
+}
